@@ -20,6 +20,9 @@ My interests include:
 
 ---
 
+
+
+
 # Experience Highlights
 
 - **5 internships** across AI, Machine Learning, Backend Development, Frontend Development, and Prompt Engineering.
