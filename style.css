@@ -619,7 +619,9 @@ h3,
   color: var(--color-text-muted);
   line-height: 1.5;
 }
-
+.section-head .open-source-subtitle {
+  max-width: none;
+}
 .open-source-subtitle a {
   color: var(--color-primary);
   font-weight: 700;
