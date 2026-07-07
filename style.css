@@ -604,6 +604,32 @@ h3,
   margin-top: 2.5rem;
 }
 
+.open-source-header {
+  margin-bottom: 1.5rem;
+}
+
+.open-source-header h2 {
+  margin-bottom: 0.35rem;
+}
+
+.open-source-subtitle {
+  margin: 0;
+  font-size: 1.08rem;          /* slightly larger */
+  font-weight: 500;
+  color: var(--color-text-muted);
+  line-height: 1.5;
+}
+
+.open-source-subtitle a {
+  color: var(--color-primary);
+  font-weight: 700;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.open-source-subtitle a:hover {
+  text-decoration: underline;
+}
 /* Make chips clickable/inlined nicely */
 .chip {
   display: inline-flex;
@@ -706,32 +732,6 @@ h3,
   font-weight: 600;
 }
 
-/* Open Source header */
-.open-source-header {
-  margin-bottom: 1.75rem;
-}
-
-.open-source-header h2 {
-  margin-bottom: 0.5rem;
-}
-
-.open-source-subtitle {
-  max-width: 650px;
-  font-size: 1rem;
-  line-height: 1.7;
-  color: var(--color-text-muted);
-}
-
-.open-source-subtitle a {
-  color: var(--color-primary);
-  font-weight: 600;
-  text-decoration: none;
-  transition: color .2s ease;
-}
-
-.open-source-subtitle a:hover {
-  text-decoration: underline;
-}
 
 /* footer */
 
