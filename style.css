@@ -706,21 +706,31 @@ h3,
   font-weight: 600;
 }
 
+/* Open Source header */
+.open-source-header {
+  margin-bottom: 1.75rem;
+}
+
+.open-source-header h2 {
+  margin-bottom: 0.5rem;
+}
+
 .open-source-subtitle {
-    margin-top: 8px;
-    font-size: 0.95rem;
-    color: var(--muted-text); /* or #b0b0b0 */
-    line-height: 1.5;
+  max-width: 650px;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: var(--color-text-muted);
 }
 
 .open-source-subtitle a {
-    color: inherit;
-    text-decoration: underline;
-    text-underline-offset: 3px;
+  color: var(--color-primary);
+  font-weight: 600;
+  text-decoration: none;
+  transition: color .2s ease;
 }
 
 .open-source-subtitle a:hover {
-    color: var(--accent); /* optional */
+  text-decoration: underline;
 }
 
 /* footer */
